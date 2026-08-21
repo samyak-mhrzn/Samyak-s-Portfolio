@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samyak Maharjan — Portfolio</title>
+  <meta name="description"
+    content="Samyak Maharjan — Computer Engineering student at Tribhuvan University, focused on full stack web development.">
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23121212'/%3E%3Ctext x='50' y='68' font-size='55' font-family='Arial,sans-serif' font-weight='800' fill='%238BC53F' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+  <meta property="og:title" content="Samyak Maharjan — Portfolio">
+  <meta property="og:description" content="Computer Engineering student focused on full stack web development.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#top" class="logo">S<span>M</span></a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#contact">Get In Touch</a></li>
+        </ul>
+        <div class="nav-right">
+          <a href="https://github.com/samyak-mhrzn" aria-label="GitHub" target="_blank" rel="noopener"><img
+              src="github.png" alt="GH"></a>
+          <a href="https://www.linkedin.com/in/samyak-maharjan-74907040b/" aria-label="LinkedIn" target="_blank"
+            rel="noopener"><img src="linkedin-svgrepo-com.png" style="height: 24px;" alt="in"></a>
+          <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="top">
+    <div class="container">
+      <div class="hero-inner">
+        <div>
+          <div class="eyebrow">Full Stack Developer</div>
+          <h1>Samyak Maharjan</h1>
+          <p>CS Engineering student at Tribhuvan University, building full stack web applications and learning something
+            new with every project. Open to internships and junior dev roles.</p>
+          <a href="#contact" class="btn">Get in touch &rarr;</a>
+        </div>
+        <div class="hero-photo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+            <!-- <circle cx="12" cy="8" r="4" />
+            <path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8" /> -->
+            <img src="samyak.jpg" alt="sm">
+          </svg>
+        </div>
+      </div>
+
+      <div class="worked-with">
+        <div class="quick-facts">
+          <div class="fact">
+            <span class="fact-label">University</span>
+            <span class="fact-value">Tribhuvan University</span>
+          </div>
+          <div class="fact">
+            <span class="fact-label">Studying</span>
+            <span class="fact-value">B.E. Computer Engineering</span>
+          </div>
+          <div class="fact">
+            <span class="fact-label">Focus</span>
+            <span class="fact-value">Full Stack Development</span>
+          </div>
+          <div class="fact">
+            <span class="fact-label">Looking for</span>
+            <span class="fact-value">Internships &amp; Junior Roles</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ABOUT SECTION -->
+  <section class="section about" id="about">
+    <div class="container about-inner">
+      <div class="about-media">
+        <img src="https://i.pinimg.com/736x/75/4c/7b/754c7b4129faa5bd5d8e6b0ba629f459.jpg"
+          style="height: 100%; width: 100%;" alt="samyak">
+      </div>
+      <div>
+        <div class="eyebrow" style="color:var(--orange)">About Me</div>
+        <h2>A bit more about me</h2>
+        <p>I'm a Computer Engineering student at Tribhuvan University, currently focused on full stack web development.
+          Most of what I know so far comes from coursework, self-taught side projects, and a lot of trial and error —
+          figuring out how a frontend, backend, and database actually fit together.</p>
+        <p>Right now I'm looking for internships or junior developer roles where I can keep learning while contributing
+          to real projects. Outside of coding, I spend time exploring new frameworks and working through personal
+          project ideas.</p>
+        <div class="stat-row">
+          <div>
+            <div class="stat-num">6</div>
+            <div class="stat-label">Languages learned</div>
+          </div>
+          <div>
+            <div class="stat-num">7</div>
+            <div class="stat-label">Projects built</div>
+          </div>
+          <div>
+            <div class="stat-num">2031</div>
+            <div class="stat-label">Expected graduation</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- PROJECTS SECTION -->
+  <section class="section testimonials" id="projects">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Recent Builds</div>
+        <h2>Projects</h2>
+        <p>A few things I've built through coursework and on my own time. Details coming soon — links will go live as I
+          publish each repo.</p>
+      </div>
+      <div class="proj-grid">
+        <div class="proj-card">
+          <div class="proj-media">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+              alt="Dashboard interface on a laptop screen">
+          </div>
+          <div class="proj-body">
+            <div class="proj-tags">
+              <span class="tag orange">PHP</span>
+              <span class="tag blue">MySQL</span>
+            </div>
+            <h4>Campus Connect</h4>
+            <p>A student portal concept for managing class schedules, assignments, and notices in one place.</p>
+            <a href="#" class="proj-link">View on GitHub &rarr;</a>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-media">
+            <img src="https://images.unsplash.com/photo-1587440871875-191322ee64b0?w=800&q=80"
+              alt="Laptop with code editor open">
+          </div>
+          <div class="proj-body">
+            <div class="proj-tags">
+              <span class="tag purple">Python</span>
+              <span class="tag blue">JavaScript</span>
+            </div>
+            <h4>TaskFlow</h4>
+            <p>A simple to-do and habit tracker with a Python backend and a lightweight JS frontend.</p>
+            <a href="#" class="proj-link">View on GitHub &rarr;</a>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-media">
+            <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=800&q=80"
+              alt="Colorful UI components on screen">
+          </div>
+          <div class="proj-body">
+            <div class="proj-tags">
+              <span class="tag orange">C</span>
+              <span class="tag purple">Data Structures</span>
+            </div>
+            <h4>PathFinder Visualizer</h4>
+            <p>A console-based visualizer for pathfinding algorithms, built as a data structures course project.</p>
+            <a href="#" class="proj-link">View on GitHub &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- LANGUAGES SECTION -->
+  <section class="section" id="languages">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Toolbox</div>
+        <h2>Languages</h2>
+        <p>The languages I've worked with through coursework and personal projects so far.</p>
+      </div>
+
+      <div class="lang-grid">
+        <div class="lang-card">
+          <div class="lang-top">
+            <span class="lang-mono orange">HTML</span>
+            <div>
+              <h4>HTML</h4>
+              <span class="lang-level">Comfortable</span>
+            </div>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill orange" style="width:85%"></div>
+          </div>
+        </div>
+
+        <div class="lang-card">
+          <div class="lang-top">
+            <span class="lang-mono blue">CSS</span>
+            <div>
+              <h4>CSS</h4>
+              <span class="lang-level">Comfortable</span>
+            </div>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill blue" style="width:80%"></div>
+          </div>
+        </div>
+
+        <div class="lang-card">
+          <div class="lang-top">
+            <span class="lang-mono purple">JS</span>
+            <div>
+              <h4>JavaScript</h4>
+              <span class="lang-level">Comfortable</span>
+            </div>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill purple" style="width:75%"></div>
+          </div>
+        </div>
+
+        <div class="lang-card">
+          <div class="lang-top">
+            <span class="lang-mono orange">PHP</span>
+            <div>
+              <h4>PHP</h4>
+              <span class="lang-level">Learning</span>
+            </div>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill orange" style="width:55%"></div>
+          </div>
+        </div>
+
+        <div class="lang-card">
+          <div class="lang-top">
+            <span class="lang-mono blue">PY</span>
+            <div>
+              <h4>Python</h4>
+              <span class="lang-level">Comfortable</span>
+            </div>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill blue" style="width:70%"></div>
+          </div>
+        </div>
+
+        <div class="lang-card">
+          <div class="lang-top">
+            <span class="lang-mono purple">C</span>
+            <div>
+              <h4>C</h4>
+              <span class="lang-level">Comfortable</span>
+            </div>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill purple" style="width:65%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION  -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow" style="color:var(--lime); justify-content:center; display:flex;">Get In Touch</div>
+        <h2>Let's connect</h2>
+        <p>Looking to hire, collaborate, or just want to chat about a project? Reach out — I usually reply within a day
+          or two.</p>
+      </div>
+
+      <div class="contact-links">
+        <a href="mailto:samyakmhrzn01@gmail.com" class="contact-chip">
+          <span class="contact-chip-label">Email</span>
+          <span class="contact-chip-value">samyakmhrzn01@gmail.com</span>
+        </a>
+        <a href="https://github.com/samyak-mhrzn" target="_blank" rel="noopener" class="contact-chip">
+          <span class="contact-chip-label">GitHub</span>
+          <span class="contact-chip-value">github.com/samyak-mhrzn</span>
+        </a>
+        <a href="https://linkedin.com/in/samyak-maharjan" target="_blank" rel="noopener" class="contact-chip">
+          <span class="contact-chip-label">LinkedIn</span>
+          <span class="contact-chip-value">linkedin.com/in/samyak-maharjan</span>
+        </a>
+      </div>
+<!-- action="https://formspree.io/f/maewljra" method="POST" -->
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <input type="text" id="cf-name" name="name" placeholder="Your name" required>
+          <input type="email" id="cf-email" name="email" placeholder="Your email" required>
+        </div>
+        <input type="text" id="cf-subject" name="subject" placeholder="Subject">
+        <textarea id="cf-message" name="message" placeholder="What would you like to talk about?" required></textarea>
+        <button type="submit" class="btn" id="cf-submit">Send message &rarr;</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- FOOTER  -->
+  <footer>
+    <div class="container footer-inner">
+      <p>Copyright &copy; 2026 <span id="year"></span> Samyak Maharjan. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="mailto:samyakmhrzn01@gmail.com">Email</a>
+        <a href="https://github.com/samyak-mhrzn" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/samyak-maharjan-74907040b/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" id="backToTop" aria-label="Back to top">&uarr;</a>
+
+</body>
+
+</html>
